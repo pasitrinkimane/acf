@@ -1,6 +1,6 @@
 {
     "name": "newcool/acf",
-    "description": "ACF pro version - 5.7.6",
+    "description": "ACF version - 5.7.6",
     "type": "wordpress-plugin",
     "require": {
         "php": "^7.2"
