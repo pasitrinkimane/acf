@@ -216,7 +216,7 @@ class acf_form_taxonomy {
 				
 				// title
 				if( $field_group['style'] == 'default' ) {
-					echo '<h2>' . $field_group['title'] . '</h2>';
+                    echo '<h2>' . __($field_group['title'], 'acf') . '</h2>';
 				}
 				
 				// fields
