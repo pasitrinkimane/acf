@@ -15,7 +15,14 @@ if( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 if( ! class_exists('ACF') ) :
 
 class ACF {
-	
+
+    public $fields;
+    public $loop;
+    public $revisions;
+    public $validation;
+    public $admin_tools;
+    public $form_front;
+
 	/** @var string The plugin version number. */
 	var $version = '5.9.9';
 	

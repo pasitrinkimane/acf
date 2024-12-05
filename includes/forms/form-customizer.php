@@ -19,8 +19,13 @@ class acf_form_customizer {
 	*  @param	n/a
 	*  @return	n/a
 	*/
-	
-	function __construct() {
+
+
+    private array $preview_values;
+    private array $preview_fields;
+    private array $preview_errors;
+
+    function __construct() {
 		
 		// vars
 		$this->preview_values = array();

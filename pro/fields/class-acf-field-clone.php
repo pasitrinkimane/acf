@@ -17,7 +17,10 @@ class acf_field_clone extends acf_field {
 	*  @param	n/a
 	*  @return	n/a
 	*/
-	
+
+    public $cloning;
+    public $have_rows;
+
 	function initialize() {
 		
 		// vars

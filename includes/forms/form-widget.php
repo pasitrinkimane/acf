@@ -27,6 +27,10 @@ class acf_form_widget {
 	*  @param	n/a
 	*  @return	n/a
 	*/
+
+    private array $preview_values;
+    private array $preview_reference;
+    private array $preview_errors;
 	
 	function __construct() {
 		

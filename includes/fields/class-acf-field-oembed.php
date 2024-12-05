@@ -17,7 +17,10 @@ class acf_field_oembed extends acf_field {
 	*  @param	n/a
 	*  @return	n/a
 	*/
-	
+
+    private $width;
+    private $height;
+
 	function initialize() {
 		
 		// vars

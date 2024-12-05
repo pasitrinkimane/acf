@@ -19,7 +19,9 @@ class acf_loop {
 	*  @param	n/a
 	*  @return	n/a
 	*/
-	
+
+    private $loops;
+
 	function __construct() {
 		
 		// vars

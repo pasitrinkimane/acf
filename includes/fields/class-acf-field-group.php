@@ -17,7 +17,13 @@ class acf_field__group extends acf_field {
 	*  @param	n/a
 	*  @return	n/a
 	*/
-	
+
+    public $name;
+    public $label;
+    public $category;
+    public $defaults;
+    public $have_rows;
+
 	function initialize() {
 		
 		// vars
