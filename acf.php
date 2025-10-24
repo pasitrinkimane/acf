@@ -69,10 +69,10 @@ class ACF {
 		$this->define( 'ACF_BASENAME', plugin_basename( __FILE__ ) );
 		$this->define( 'ACF_VERSION', $this->version );
 		$this->define( 'ACF_MAJOR_VERSION', 5 );
-		
+
 		// Define settings.
 		$this->settings = array(
-			'name'						=> __('Advanced Custom Fields', 'acf'),
+			'name'						=> 'Advanced Custom Fields',
 			'slug'						=> dirname( ACF_BASENAME ),
 			'version'					=> ACF_VERSION,
 			'basename'					=> ACF_BASENAME,
@@ -224,7 +224,7 @@ class ACF {
 		
 		// Update url setting. Allows other plugins to modify the URL (force SSL).
 		acf_update_setting( 'url', plugin_dir_url( __FILE__ ) );
-		
+
 		// Load textdomain file.
 		acf_load_textdomain();
 		

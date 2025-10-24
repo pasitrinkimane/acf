@@ -35,7 +35,7 @@ class acf_form_front {
 				'prefix'	=> 'acf',
 				'name'		=> '_post_title',
 				'key'		=> '_post_title',
-				'label'		=> __('Title', 'acf'),
+				'label'		=> 'Title',
 				'type'		=> 'text',
 				'required'	=> true,
 			),
@@ -44,7 +44,7 @@ class acf_form_front {
 				'prefix'	=> 'acf',
 				'name'		=> '_post_content',
 				'key'		=> '_post_content',
-				'label'		=> __('Content', 'acf'),
+				'label'		=> 'Content',
 				'type'		=> 'wysiwyg',
 			),
 			
@@ -52,7 +52,7 @@ class acf_form_front {
 				'prefix'	=> 'acf',
 				'name'		=> '_validate_email',
 				'key'		=> '_validate_email',
-				'label'		=> __('Validate Email', 'acf'),
+				'label'		=> 'Validate Email',
 				'type'		=> 'text',
 				'value'		=> '',
 				'wrapper'	=> array('style' => 'display:none !important;')

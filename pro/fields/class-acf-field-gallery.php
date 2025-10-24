@@ -347,7 +347,7 @@ class acf_field_gallery extends acf_field {
 					'name'		=> 'title',
 					'prefix'	=> $prefix,
 					'type'		=> 'text',
-					'label'		=> __('Title', 'acf'),
+					'label'		=> 'Title',
 					'value'		=> $attachment['title']
 				), 'tr');
 				
@@ -530,7 +530,7 @@ class acf_field_gallery extends acf_field {
 	*/
 	
 	function render_field_settings( $field ) {
-		
+
 		// clear numeric settings
 		$clear = array(
 			'min',
