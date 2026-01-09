@@ -98,12 +98,10 @@ class acf_field_select extends acf_field {
 			$style = acf_get_url("assets/inc/select2/3/select2.css");
 			
 		}
-		
-		
-		// enqueue
-		wp_enqueue_script('select2', $script, array('jquery'), $version );
-		wp_enqueue_style('select2', $style, '', $version );
-		
+
+        $handle = defined('WC_PLUGIN_FILE') ? 'wc-select2' : 'select2';
+        wp_enqueue_script($handle, $script, array('jquery'), $version );
+        wp_enqueue_style($handle, $style, '', $version );
 		
 		// localize
 		acf_localize_data(array(

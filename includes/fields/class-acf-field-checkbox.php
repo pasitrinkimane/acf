@@ -3,7 +3,10 @@
 if( ! class_exists('acf_field_checkbox') ) :
 
 class acf_field_checkbox extends acf_field {
-	
+
+    public $_values = array();
+    public $_all_checked = false;
+
 	
 	/*
 	*  __construct
